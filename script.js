@@ -3,7 +3,7 @@
 // Prova prima a caricare la API remota. Se fallisce, usa data.json.
 
 const THEME_KIND = "dogapi";
-const API_URL = "https://dog.ceo/api/breeds/image/random/12";
+const API_URL = "https://dog.ceo/api/breeds/image/random/8";
 
 const container = document.querySelector("#data-container");
 const statusMessage = document.querySelector("#status-message");
@@ -228,9 +228,17 @@ async function loadJikan() {
 
 async function loadDogApi() {
   const data = await fetchJson(API_URL);
+  const destinations = [
+    { index: 1, titolo: "fdjsndoasdo", descrizione: "sdgdgdsgs"},
+    { index: 2, titolo: "fdjsndoasdo", descrizione: "sdgdgdsgs"},
+    { index: 3, titolo: "fdjsndoasdo", descrizione: "sdgdgdsgs"},
+    { index: 4, titolo: "fdjsndoasdo", descrizione: "sdgdgdsgs"},
+    { index: 5, titolo: "fdjsndoasdo", descrizione: "sdgdgdsgs"}
+  ];
+
   return data.message.map((url, index) => ({
-    title: `Immagine cane ${index + 1}`,
-    body: "Immagine caricata dalla Dog CEO API. Aggiungi una descrizione o una categoria nella pagina.",
+    title: `Guarda che bel ${url.split("/breeds/")[1].split("/")[0]}!!`,
+    body: `Questa foto rappresenta  un ${url.split("/breeds/")[1].split("/")[0]} al massimo del suo splendore!`,
     meta: "Dog API",
     image: url
   }));
