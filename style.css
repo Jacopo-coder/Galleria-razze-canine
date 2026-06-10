@@ -1,0 +1,48 @@
+body {
+    background-color: 	#f5f0e3;
+    color: 	#261c00;
+    font-family: "Fredoka", sans-serif;
+} 
+
+.navbar {
+    background-color: #261c00 !important;
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+    color: #d1c8b0 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #f5f0e3 !important
+}
+
+td {
+    background-color: 	#f5f0e3  !important;
+    color: 	#261c00  !important;
+    margin: 1000px;
+}
+
+th {
+    background-color: 	#f5f0e3  !important;
+    color: 	#261c00  !important;
+    margin: 1000px;
+}
+
+
+.card {
+    transition: transform 0.2s;
+
+    background-color: #817962 !important;
+    color: #ffffff !important;
+    border: 2px solid #b1a587 !important;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+footer {
+    padding: 0.5rem;
+    color: #261c00;
+    border-top: 1px solid #261c00;
+    text-align: center;
+}
