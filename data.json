@@ -1,0 +1,62 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [ 
+    {
+      "title": "Golden Retriever",
+      "body": "Un cane giocoso e adatto ai più piccoli.",
+      "meta": "Dog API",
+      "image": "https://images.dog.ceo/breeds/retriever-golden/n02099601_100.jpg"
+    },
+
+    {
+      "title": "Indian Mudhol",
+      "body": "Cane indiano, conosciuto anche come Caravan Hound. ",
+      "meta": "Dog API",
+      "image": "https://images.dog.ceo/breeds/mudhol-indian/Indian-Mudhol.jpg"
+    },
+
+    {
+      "title": "Borzoi",
+      "body": "Levriero Russo, a cui non piace il Natale.",
+      "meta": "Dog API",
+      "image": "https://images.dog.ceo/breeds/borzoi/n02090622_7799.jpg"
+    },
+
+    {
+      "title": "Bully Kutta, o Indian Mastiff.",
+      "body": "Molossoide di origine Indiana. Diciamo che questo cane è un po' come il cavaliere nero...",
+      "meta": "Dog API",
+      "image": "https://images.dog.ceo/breeds/mastiff-indian/Indian_Mastiff.jpg"
+    },
+
+    {
+      "title": "Komondor",
+      "body": "Quadrupede canino Ungherese, conosciuto anche come Rotomop.",
+      "meta": "Dog API",
+      "image": "https://images.dog.ceo/breeds/komondor/n02105505_4311.jpg"
+    },
+
+    {
+      "title": "Canis Lupus Dingo",
+      "body": "Famelico canide Australiano, ne sa qualcosa Crash Bandicoot.",
+      "meta": "Dog API",
+      "image": "https://images.dog.ceo/breeds/dingo/n02115641_3862.jpg"
+    },
+
+    {
+      "title": "Kelpie",
+      "body": "Cane pastore della Terra Australis Incognita, da non confondere con la versione Scozzese, anche se molto simile",
+      "meta": "Dog API",
+      "image": "https://images.dog.ceo/breeds/kelpie/n02105412_417.jpg"
+    },
+
+    {
+      "title": "Frise-bichon",
+      "body": "Canide di origine sconosciuta. Ha fatto del celebre testo di Cioran un motto, 'L'inconveniente di essere nati.'",
+      "meta": "Dog API",
+      "image": "https://images.dog.ceo/breeds/frise-bichon/jh-ezio-3.jpg"
+    }
+
+  ]
+}
